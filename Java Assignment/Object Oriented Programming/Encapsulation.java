@@ -1,3 +1,9 @@
+//Encapsulation in Java is a concept where the details of an object's data are hidden from the outside world. It is achieved by making the fields (variables) private and providing public methods (getters and setters) to access and modify those fields.
+
+// The Person class has private fields name and age to protect them from direct access.
+// Public getter and setter methods are provided to allow controlled access to these fields.
+// This ensures that data is accessed and modified in a controlled way, maintaining data integrity.
+
 class Structure{
     private String name;
     private int age;
