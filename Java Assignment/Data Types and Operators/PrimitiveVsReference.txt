@@ -1,0 +1,7 @@
+In Java, data types are divided into two categories: primitive data types and reference data types. Primitive data types, such as int, float, char, and boolean, represent simple values and are not objects. They store the actual data directly in memory, with each type having a fixed size (eg. int is 4 bytes). These types are more efficient in terms of memory and performance because they do not have the overhead associated with objects. 
+
+On the other hand, reference data types store references to objects rather than the actual data. These include objects created from classes, arrays, and strings. Since reference types store the location of an object in memory, they allow more complex data structures but are less memory efficient compared to primitive types. The default value for reference types is null, indicating that the reference does not point to any object initially. Examples of reference types include String name = "Prasang"; or int[] numbers = {1, 2, 3};. Unlike primitive types, reference types can store multiple values in a single variable (such as an array or a class instance), offering greater flexibility but at the cost of additional memory overhead.
+
+
+
+Also, Primitive data types are the reason why java isn't a 100% object oriented programming language.
