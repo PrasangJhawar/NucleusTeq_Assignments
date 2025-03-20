@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HR Dashboard</title>
+    <link rel="stylesheet" href="dashboard-style.css">
+</head>
+<body>
+
+    <div class="dashboard">
+        <h1>HR Dashboard</h1>
+        
+        <h2>Add Employee</h2>
+        <div class="form-container">
+            <form id="add-employee-form">
+                <input type="text" id="name" placeholder="Enter Name" required>
+                <input type="text" id="department" placeholder="Enter Department" required>
+                <input type="email" id="email" placeholder="Enter Email" required>
+                <input type="number" id="salary" placeholder="Enter Salary" required>
+                <button type="submit" id="add-employee-btn">Add Employee</button>
+            </form>
+        </div>
+        
+        <h2>Employee List</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Department</th>
+                    <th>Email</th>
+                    <th>Salary</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody id="employee-table-body">
+            </tbody>
+        </table>
+
+        
+        <button id="logout-btn">Logout</button>
+    </div>
+    
+    <script src="script.js" defer></script>
+    
+</body>
+</html>

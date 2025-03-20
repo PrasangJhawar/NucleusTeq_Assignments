@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HR Portal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="login">
+        <h1>HR Portal</h1>
+        
+        <div class="input-container" id="login-form">
+            <div id="email">
+                <label for="email" class="input-label">Email:</label>
+                <input placeholder="Enter your email" type="email" id="email-input">
+            </div>
+            <div id="password">
+                <label for="password" class="input-label">Password:</label>
+                <input placeholder="Enter your password" type="password" id="password-input">
+            </div>
+            <div id="btn">
+                <button id="login-btn">Login</button>
+            </div>
+            <div id="registration">
+                <p>Don't have an account? <a href="#" id="register-link">Register now</a></p>
+            </div>
+        </div>
+
+        
+        <div class="input-container" id="registration-form" style="display: none;">
+            <div id="email">
+                <label for="reg-email" class="input-label">Email:</label>
+                <input placeholder="Enter your email" type="email" id="reg-email-input">
+            </div>
+            <div id="name">
+                <label for="reg-name" class="input-label">Name:</label>
+                <input placeholder="Enter your name" type="text" id="reg-name-input">
+            </div>
+            <div id="password">
+                <label for="reg-password" class="input-label">Password:</label>
+                <input placeholder="Enter your password" type="password" id="reg-password-input">
+            </div>
+            <div id="btn">
+                <button id="register-btn">Register</button>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
