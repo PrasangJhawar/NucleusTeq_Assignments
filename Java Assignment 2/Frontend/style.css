@@ -119,3 +119,62 @@ input {
 .dashboard{
     background-color: #000000;
 }
+
+
+@media screen and (max-width: 768px) {
+    .login {
+        width: 90%;
+        padding: 30px;
+    }
+
+    .input-container {
+        margin: 20px;
+    }
+
+    input {
+        width: 100%;
+    }
+
+    #email, #password, #name {
+        flex-direction: column;
+        margin: 10px 0;
+    }
+
+    .input-label {
+        width: auto;
+        font-size: 16px;
+        margin-bottom: 5px;
+    }
+
+    #login-btn, #register-btn {
+        width: 100%;
+        font-size: 16px;
+        padding: 12px;
+    }
+
+    #registration {
+        margin-top: 30px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    h1 {
+        font-size: 22px;
+    }
+
+    .login h1 {
+        font-size: 20px;
+    }
+
+    input {
+        width: 90%;
+    }
+
+    #email, #password, #name {
+        margin: 10px 0;
+    }
+
+    #login-btn, #register-btn {
+        width: 100%;
+    }
+}

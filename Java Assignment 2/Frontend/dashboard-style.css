@@ -66,6 +66,8 @@ th, td {
     border: 1px solid #ccc;
 }
 
+
+
 th {
     background-color: #001e4d;
     color: white;
@@ -73,4 +75,69 @@ th {
 
 #logout-btn{
     margin-top: 50px;
+}
+
+
+/* responsiveness */
+@media screen and (max-width: 768px) {
+    .dashboard {
+        width: 90%;
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    .form-container {
+        margin: 20px 0;
+    }
+
+    input {
+        width: 100%;
+    }
+
+    table th, table td {
+        font-size: 14px;
+        padding: 8px;
+    }
+
+    #add-employee-form input {
+        width: 100%;
+    }
+
+    #add-employee-btn {
+        width: 100%;
+    }
+
+    #logout-btn {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    h1 {
+        font-size: 22px;
+    }
+
+    .dashboard {
+        width: 95%;
+        padding: 15px;
+    }
+
+    input {
+        padding: 10px;
+    }
+
+    table th, table td {
+        font-size: 12px;
+    }
+
+    #add-employee-btn, #logout-btn {
+        padding: 15px;
+    }
 }
